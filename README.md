@@ -597,7 +597,8 @@ aws ec2 create-tags --resources $(<frontend_id) --tags Key=Name,Value=zomato.fro
 
 aws ec2 create-tags --resources $(<backend_id) --tags Key=Name,Value=zomato.backend
 ```
-![Alt text](https://github.com/pratheeshsatheeshkumar/create-servers-via-aws-cli/blob/main/zomato%20EC2%20instances.png "Created Instances."
+
+![Alt text](https://github.com/pratheeshsatheeshkumar/create-servers-via-aws-cli/blob/main/zomato%20EC2%20instances.png "Created Instances.")
 
 
 #### 13 . Connecting to zomato.bastion server via ssh from my workstation using public ip and hostname.
