@@ -1,4 +1,4 @@
-# Implementation of multiple  public and private servers in a VPC  using AWS-CLI
+# Implementation of multiple  public and private servers in a VPC  using AWS-CLI.
 
 This document is intended to devops engineers those who want to build AWS infrastructure solely using AWS-CLI. I will try to explain each step as simple as I can keeping the beginners in mind. Later, I will make another document for automating these activities using terraform.
 
@@ -10,6 +10,8 @@ This document is intended to devops engineers those who want to build AWS infras
 - frontend is accessible via SSH from  bastion and via HTTP from internet.
 - backend is able to access the internet via NAT Gateway.
 - AWS console is not supposed to use for any activity.
+
+![Alt text](https://github.com/pratheeshsatheeshkumar/create-servers-via-aws-cli/blob/main/zomato.png "Block diagram of the expected architecture.")
 
 #### 1. AWS CLI configuration. 
 _As a prerequisite an IAM user with programmatic access has to be available in hand._
