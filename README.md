@@ -1,4 +1,5 @@
 # Implementation of multiple  public and private servers in a VPC  using AWS-CLI.
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
 
 This document is intended to devops engineers those who want to build AWS infrastructure solely using AWS-CLI. I will try to explain each step as simple as I can keeping the beginners in mind. Later, I will make another document for automating these activities using terraform.
 
