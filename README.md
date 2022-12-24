@@ -11,7 +11,7 @@ This document is intended to devops engineers those who want to build AWS infras
 - frontend is accessible via SSH from  bastion and via HTTP from internet.
 - backend is able to access the internet via NAT Gateway.
 - AWS console is not supposed to use for any activity.
-![Screenshot](zomato.png)
+
 ![Alt text](https://github.com/pratheeshsatheeshkumar/create-servers-via-aws-cli/blob/main/zomato.png "Block diagram of the expected architecture.")
 
 #### 1. AWS CLI configuration. 
